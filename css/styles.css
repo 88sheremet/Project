@@ -1,0 +1,68 @@
+.customers__title{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 1.18;
+
+color: #2C2C2C;
+}
+
+@media screen and (min-width: 768px) {
+    .customers__title{
+        font-size: 42px;
+        line-height: 1.17;
+        }
+  }
+  
+ .customers__text{
+    font-weight: 400;
+font-size: 14px;
+line-height: 1.14;
+
+color: #2C2C2C;
+ } 
+
+ @media screen and (min-width: 768px) {
+    .customers__text{
+        font-size: 16px;
+        line-height: 1.19;
+        }
+  }
+
+
+.customers__list-text{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.19;
+
+color: #2C2C2C;
+}
+
+@media screen and (min-width: 768px) {
+    .customers__list-text{
+        font-size: 18px;
+line-height: 1.17;
+        }
+  }
+
+  .customers__list-client-name{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.5;
+color: #2C2C2C;
+  }
+
+  .customers__list-client-caption{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.5;
+
+color: #2C2C2C;
+  }
