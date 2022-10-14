@@ -1,4 +1,4 @@
-:root{
+/* :root{
   --primary-text-color: #2C2C2C;
 }
 
@@ -33,10 +33,11 @@ img {
 
 .list {
   list-style: none;
-}
+} */
 
 .customers{
-    background-image: url('../img/mobile/Rectangle-mob.png');
+    /* background-image: url('../img/mobile/Rectangle-mob.png'); */
+    background-image: url('../images/customers/mobile/bg-customers.jpg');
     background-size: 320px 769px;
     background-repeat: no-repeat;
     /* background-position: center; */
@@ -47,26 +48,51 @@ img {
     margin-right: auto;
 }
 
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 320px),
+  (min-resolution: 192dpi) and (min-width: 320px),
+  (min-resolution: 2dppx) and (min-width: 320px){
+  .customers {
+    background-image: url('../images/customers/mobile/bg-customers@2x.jpg');
+  }
+}
+
 @media screen and (min-width: 480px) {
   .customers{
-    background-image: url('../img/mobile/Rectangle-mob-480.png'); 
+    background-image: url('../images/customers/mobile/bg-customers-480.jpg'); 
     background-size: 480px 769px;
     width: 480px;
       }
 }
 
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 480px),
+  (min-resolution: 192dpi) and (min-width: 480px),
+  (min-resolution: 2dppx) and (min-width: 480px){
+  .customers {
+    background-image: url('../images/customers/mobile/bg-customers-480@2x.jpg');
+  }
+}
+
+
 @media screen and (min-width: 768px) {
   .customers{
-    background-image: url('../img/tablet/Rectangle-tabl.png'); 
+    background-image: url('../images/customers/tablet/bg-customers.jpg'); 
     background-size: 768px 554px;
     height: 554px;
     width: 768px;
       }
 }
 
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
+  (min-resolution: 192dpi) and (min-width: 768px),
+  (min-resolution: 2dppx) and (min-width: 768px){
+  .customers {
+    background-image: url('../images/customers/tablet/bg-customers@2x.jpg');
+  }
+}
+
 @media screen and (min-width: 1280px) {
   .customers{
-    background-image: url('../img/desctop/Customers-Say.png'); 
+    background-image: url('../images/customers/desktop/bg-customers.jpg'); 
     background-size: 1280px 647px;
     height: 647px;
     width: 1280px;
@@ -74,8 +100,15 @@ img {
       }
 }
 
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 1280px),
+  (min-resolution: 192dpi) and (min-width: 1280px),
+  (min-resolution: 2dppx) and (min-width: 1280px){
+  .customers {
+    background-image: url('../images/customers/desktop/bg-customers@2x.jpg');
+  }
+}
 
-
+/* 
 .container{
     
     margin-left: auto;
@@ -109,7 +142,7 @@ img {
   .customers__header{
     width: 501px; 
       }
-}
+} */
 
 
 
