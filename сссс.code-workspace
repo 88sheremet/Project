@@ -1,0 +1,31 @@
+{
+	"folders": [
+		{
+			"path": "..\\Резюме"
+		},
+		{
+			"path": "..\\banderogus"
+		},
+		{
+			"path": "..\\ДЗ"
+		},
+		{
+			"path": "..\\Webstudio"
+		},
+		{
+			"path": "..\\Portfolio"
+		},
+		{
+			"path": "..\\Practice"
+		},
+		{
+			"path": "..\\Новая папка"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Webstudio"
+	}
+}
