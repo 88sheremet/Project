@@ -215,7 +215,6 @@ a {
     font-size: 14px;
     line-height: 1.5;
     color: var(--primary-text-color);
-    
       }
     
   .customers__list-client-caption{
@@ -453,7 +452,7 @@ margin-bottom: 32px;
   font-size: 14px;
   line-height: 1.5;
   color: var(--primary-text-color);
-  margin-right: 8px;
+  
     }
   
     .customers__list-client-caption{
@@ -649,7 +648,7 @@ font-weight: 500;
 font-size: 14px;
 line-height: 1.5;
 color: var(--primary-text-color);
-margin-right: 8px;
+
   }
 
   .customers__list-client-caption{
