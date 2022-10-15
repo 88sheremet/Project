@@ -215,7 +215,7 @@ a {
     font-size: 14px;
     line-height: 1.5;
     color: var(--primary-text-color);
-    margin-right: 8px;
+    /* margin-right: 6px; */
       }
     
   .customers__list-client-caption{
@@ -235,6 +235,7 @@ a {
         width: 52px;
         right: -50%;
         top: 50%;
+        left: 88%;
         border: 0.854167px solid #7EB101;
         transform: rotate(90deg);
       } 
