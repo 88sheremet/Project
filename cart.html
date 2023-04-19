@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Home</title>
+	<title>Carrinho de compras</title>
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="shortcut icon" href="img/favicon.ico"/>
 	<!-- font awesome cdn link -->
@@ -47,60 +47,87 @@
 </header>
 
 
-<!-- ======= Home Section/Seção inicial ======= -->
-<section class="home">
-	<div class="slide active" style="background: url(img/home-bg-1.png) no-repeat;">
-		<div class="content">
-			<span>Proteja seus olhos</span>
-			<h3>Até 50% de desconto</h3>
-			<a href="#" class="btn">Compre agora</a>
-		</div>
-	</div>
-	<div class="slide" style="background: url(img/home-bg-2.png) no-repeat;">
-		<div class="content">
-			<span>Proteja seus olhos</span>
-			<h3>Até 50% de desconto</h3>
-			<a href="#" class="btn">Compre agora</a>
-		</div>
-	</div>
-	<div class="slide" style="background: url(img/home-bg-3.png) no-repeat;">
-		<div class="content">
-			<span>Proteja seus olhos</span>
-			<h3>Até 50% de desconto</h3>
-			<a href="#" class="btn">Compre agora</a>
-		</div>
-	</div>
-
-	<div id="next-slide" onclick="next()" class="fas fa-angle-right"></div>
-	<div id="prev-slide" onclick="prev()" class="fas fa-angle-left"></div>
+<!-- ======= Heading Section/Seção de cabeçalho dois ======= -->
+<section class="heading">
+	<h1>Carrinho de compras</h1>
+	<p> <a href="index.html">Home</a> >> Carrinho </p>
 </section>
 
 
-<!-- ======= Banner Section/Seção Banner ======= -->
-<section class="banner">
-	<div class="box">
-		<img src="img/banner-1.jpg" alt="">
-		<div class="content">
-			<span>Oferta especial</span>
-			<h3>Até 20% de desconto</h3>
-			<a href="#" class="btn">Compre agora</a>
+<!-- ======= Shopping Cart Section/Seção de Carrinho de compras ======= -->
+<section class="shopping-cart">
+	<h1 class="title">Seus produtos</h1>
+	<div class="box-container">
+		<div class="box">
+			<i class="fas fa-times"></i>
+			<img src="img/cart-item-1.png" alt="">
+			<div class="content">
+				<h3>Óculos premium</h3>
+				<form action="">
+					<span>Quantidade :</span>
+					<input type="number" name="" value="1" id="">
+				</form>
+				<div class="price"> R$20,00 <span>R$25,00</span></div>
+			</div>
+		</div>
+
+		<div class="box">
+			<i class="fas fa-times"></i>
+			<img src="img/cart-item-2.png" alt="">
+			<div class="content">
+				<h3>Óculos premium</h3>
+				<form action="">
+					<span>Quantidade :</span>
+					<input type="number" name="" value="1" id="">
+				</form>
+				<div class="price"> R$20,00 <span>R$25,00</span></div>
+			</div>
+		</div>
+
+		<div class="box">
+			<i class="fas fa-times"></i>
+			<img src="img/cart-item-3.png" alt="">
+			<div class="content">
+				<h3>Óculos premium</h3>
+				<form action="">
+					<span>Quantidade :</span>
+					<input type="number" name="" value="1" id="">
+				</form>
+				<div class="price"> R$20,00 <span>R$25,00</span></div>
+			</div>
+		</div>
+
+		<div class="box">
+			<i class="fas fa-times"></i>
+			<img src="img/cart-item-4.png" alt="">
+			<div class="content">
+				<h3>Óculos premium</h3>
+				<form action="">
+					<span>Quantidade :</span>
+					<input type="number" name="" value="1" id="">
+				</form>
+				<div class="price"> R$20,00 <span>R$25,00</span></div>
+			</div>
+		</div>
+
+		<div class="box">
+			<i class="fas fa-times"></i>
+			<img src="img/cart-item-5.png" alt="">
+			<div class="content">
+				<h3>Óculos premium</h3>
+				<form action="">
+					<span>Quantidade :</span>
+					<input type="number" name="" value="1" id="">
+				</form>
+				<div class="price"> R$20,00 <span>R$25,00</span></div>
+			</div>
 		</div>
 	</div>
-	<div class="box">
-		<img src="img/banner-2.jpg" alt="">
-		<div class="content">
-			<span>Oferta especial</span>
-			<h3>Até 70% de desconto</h3>
-			<a href="#" class="btn">Compre agora</a>
-		</div>
-	</div>
-	<div class="box">
-		<img src="img/banner-3.jpg" alt="">
-		<div class="content">
-			<span>Oferta especial</span>
-			<h3>Até 30% de desconto</h3>
-			<a href="#" class="btn">Compre agora</a>
-		</div>
+	<h1 class="title">Finalizar carrinho</h1>
+	<div class="cart-total">
+		<h3>subtotal : <span>R$100,00</span></h3>
+		<h3>total : <span>R$100,00</span></h3>
+		<a href="#" class="btn">Fazer o check-out</a>
 	</div>
 </section>
 
@@ -147,17 +174,15 @@
 	</div>
 	<div class="credits">Criado Por <span>Daniel Oliveira</span> | Todos os Direitos Reservados </div>
 </section>
-
 	
-	<script src="js/script.js" defer></script>
+	
+	<script src="js/script.js"></script>
 </body>
 </html>
-
-
 
 <!--
     Autor: Daniel Oliveira
     Email: danieloliveira.webmaster@gmail.com
     Manaus/Amazonas
-    13/08/2022* - 17/03/2022
+    17/03/2022
 -->
